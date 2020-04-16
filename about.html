@@ -1,60 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="dicription" content="BT Hotel is the most luxuries hotel in Boston Massachusets with great prices!">
-  <meta name="keywords" content="hotel, Boston, travel, visit Boston, best hotel Boston, New England hotel">
-  <title>Hotel BT | About Boston Hotel</title>
-  <link rel="stylesheet" href="../CSS/style.css">
-  <link rel="stylesheet" media="screen and (max-width:768px)" href="../CSS/mobile.css">
-</head>
-<body>
-  <header>
-    <nav id="navbar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="dicription"
+      content="BT Hotel is the most luxuries hotel in Boston Massachusets with great prices!"
+    />
+    <meta
+      name="keywords"
+      content="hotel, Boston, travel, visit Boston, best hotel Boston, New England hotel"
+    />
+    <title>Hotel BT | About Boston Hotel</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="./CSS/mobile.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="index.html">HBT</a></h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="current" href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="about-info" class="bg-light py-3">
       <div class="container">
-      <h1 class="logo"><a href="index.html">HBT</a></h1>
-      <ul>
-        <li><a  href="index.html">Home</a></li>
-        <li><a class="current" href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-    </nav>
-  </header>
-
-  <section id="about-info" class="bg-light py-3">
-    <div class="container">
-      <div class="info-left">
-          <h1 class="l-heading"><span class="text-primary">About</span> Hotel BT</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nostrum, expedita iste corrupti tempore eum omnis repellat ad autem distinctio mollitia officiis, unde doloremque magni itaque inventore veniam laboriosam obcaecati.</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab accusantium ullam reprehenderit vitae quasi dolor voluptas corporis nesciunt enim nulla.</p>
-
+        <div class="info-left">
+          <h1 class="l-heading">
+            <span class="text-primary">About</span> Hotel BT
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            nostrum, expedita iste corrupti tempore eum omnis repellat ad autem
+            distinctio mollitia officiis, unde doloremque magni itaque inventore
+            veniam laboriosam obcaecati.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab
+            accusantium ullam reprehenderit vitae quasi dolor voluptas corporis
+            nesciunt enim nulla.
+          </p>
+        </div>
+        <div class="info-right">
+          <img src="../img/photo-2.jpg" alt="Picture of Hotel" />
+        </div>
       </div>
-      <div class="info-right">
-          <img src="../img/photo-2.jpg" alt="Picture of Hotel">
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <div class="clr"></div>
+    <div class="clr"></div>
 
-  <section id="testimonials" class="py-3">
-    <div class="container">
-      <h2 class="l-heading">What Our Guest Say</h2>
-      <div class="testimonial bg-primary">
-        <img src="../img/person-1.jpg" alt="Samantha">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic esse nulla voluptatibus similique asperiores minima tenetur necessitatibus porro repudiandae reiciendis. Nostrum, culpa corporis. In inventore porro delectus, impedit placeat veniam, molestiae voluptate tenetur quia voluptates aperiam molestias natus quaerat illum.</p>
+    <section id="testimonials" class="py-3">
+      <div class="container">
+        <h2 class="l-heading">What Our Guest Say</h2>
+        <div class="testimonial bg-primary">
+          <img src="../img/person-1.jpg" alt="Samantha" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic esse
+            nulla voluptatibus similique asperiores minima tenetur
+            necessitatibus porro repudiandae reiciendis. Nostrum, culpa
+            corporis. In inventore porro delectus, impedit placeat veniam,
+            molestiae voluptate tenetur quia voluptates aperiam molestias natus
+            quaerat illum.
+          </p>
+        </div>
+        <div class="testimonial bg-primary">
+          <img src="../img/person-2.jpg" alt="Lauren" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic esse
+            nulla voluptatibus similique asperiores minima tenetur
+            necessitatibus porro repudiandae reiciendis. Nostrum, culpa
+            corporis. In inventore porro delectus, impedit placeat veniam,
+            molestiae voluptate tenetur quia voluptates aperiam molestias natus
+            quaerat illum.
+          </p>
+        </div>
       </div>
-      <div class="testimonial bg-primary">
-        <img src="../img/person-2.jpg" alt="Lauren">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic esse nulla voluptatibus similique asperiores minima tenetur necessitatibus porro repudiandae reiciendis. Nostrum, culpa corporis. In inventore porro delectus, impedit placeat veniam, molestiae voluptate tenetur quia voluptates aperiam molestias natus quaerat illum.</p>
-      </div>
-    </div>
-  </section>
-  
-  <footer id="main-footer">
-    <p>Hotel BT &copy; 2019 All Rights Reserved</p>
-  </footer>
-</body>
+    </section>
+
+    <footer id="main-footer">
+      <p>Hotel BT &copy; 2019 All Rights Reserved</p>
+    </footer>
+  </body>
 </html>
